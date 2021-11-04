@@ -1,7 +1,6 @@
 const net = require("net");
 const fs = require("fs");
 const isValid = require("is-valid-path");
-const { fileURLToPath } = require("url");
 
 const server = net.createServer();
 
